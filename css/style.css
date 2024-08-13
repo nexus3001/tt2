@@ -75,7 +75,7 @@ a {
   background: url(../assets/imges/Rectangle.png),
     url(../assets/imges/Rectangle-bottom.png);
   background-repeat: no-repeat;
-  background-position: left top 320px;
+  background-position: left top 320px, right bottom 74px;
 }
 
 .container-bg {
@@ -136,8 +136,19 @@ a {
   color: #ffffff;
 }
 .products {
-  padding-top: 160px;
+  /* padding-top: 160px; */
+  min-height: 960px;
 }
+
+.products__content {
+}
+
+.product {
+}
+
+.products__content-item {
+}
+
 .footer {
   background-color: #1d1c1e;
 }
