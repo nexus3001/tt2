@@ -141,12 +141,36 @@ a {
 }
 
 .products__content {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.product {
+  max-width: 540px;
+  height: 308px;
+  width: 100%;
+  background: #000000;
+  border-radius: 15px;
+  display: flex;
+}
+
+.product.product__content-item {
+  min-height: 640px;
+}
+div.product__content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.product h2 {
 }
 
 .product {
 }
 
-.products__content-item {
+.product__content-item {
+  width: 100%;
 }
 
 .footer {
