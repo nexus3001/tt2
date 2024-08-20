@@ -146,26 +146,58 @@ a {
   gap: 30px;
 }
 
+.products__content article div {
+  border-radius: inherit;
+  width: inherit;
+  height: 100%;
+  transition: background 0.5s ease-in-out;
+}
+
+.products__content article:hover div {
+  background: rgba(231, 130, 107, 0.8);
+}
+
 .product {
   max-width: 540px;
   height: 308px;
   width: 100%;
   background: #000000;
   border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
 }
 
 .product.product__content-item {
   min-height: 640px;
+  background-image: url(../assets/imges/notebook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
 div.product__content-item {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+div.product__content-item article.product {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+div.product__content-item article.product:nth-child(1) {
+  background-image: url(../assets/imges/iphone.png);
+}
+
+div.product__content-item article.product:nth-child(2) {
+  background-image: url(../assets/imges/abstraction.png);
+}
+
+.product div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .product h2 {
   font-size: 40px;
@@ -183,16 +215,45 @@ div.product__content-item {
   color: #ffffff;
   text-transform: uppercase;
 }
+
 .product a {
   background-image: url(../assets/imges/Path.svg);
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 21px;
 }
+
 .product__content-item {
   width: 100%;
 }
 
+.props {
+  column-gap: 30px;
+}
+
+.props__item {
+  text-align: center;
+  width: 350px;
+  min-height: 792px;
+}
+.props__item img {
+  margin-bottom: 48px;
+}
+.props__item h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+  color: #333136;
+  margin-bottom: 32px;
+}
+.props__item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #333136;
+}
 .footer {
   background-color: #1d1c1e;
 }
