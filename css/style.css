@@ -19,8 +19,8 @@ ul {
 a {
   text-decoration: none;
 }
-.header {
-}
+
+.header {}
 
 .header .container {
   height: 155px;
@@ -47,12 +47,12 @@ a {
   height: 24px;
 }
 
-.nav {
-}
+.nav {}
 
 .menu {
   gap: 42px;
 }
+
 .menu a {
   text-transform: uppercase;
   font-size: 14px;
@@ -61,12 +61,12 @@ a {
   transition: text-decoration-line 0.5s ease-in-out;
   color: #333136;
 }
+
 .menu a:hover {
   text-decoration-line: underline;
 }
 
-.header_menu {
-}
+.header_menu {}
 
 .main {
   max-width: 1440px;
@@ -78,8 +78,7 @@ a {
   background-position: left top 320px, right bottom 74px;
 }
 
-.container-bg {
-}
+.container-bg {}
 
 .hero {
   min-height: 640px;
@@ -131,10 +130,12 @@ a {
   text-transform: uppercase;
   transition: all 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
+
 .hero__content a:hover {
   background-color: #ffad9b;
   color: #ffffff;
 }
+
 .products {
   /* padding-top: 160px; */
   min-height: 960px;
@@ -179,6 +180,7 @@ div.product__content-item {
   flex-direction: column;
   gap: 24px;
 }
+
 div.product__content-item article.product {
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,6 +201,7 @@ div.product__content-item article.product:nth-child(2) {
   justify-content: center;
   align-items: center;
 }
+
 .product h2 {
   font-size: 40px;
   font-weight: 500;
@@ -207,7 +210,7 @@ div.product__content-item article.product:nth-child(2) {
   text-transform: uppercase;
 }
 
-.product a > h3 {
+.product a>h3 {
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
