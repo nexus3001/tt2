@@ -236,9 +236,11 @@ div.product__content-item article.product:nth-child(2) {
   width: 350px;
   min-height: 792px;
 }
+
 .props__item img {
   margin-bottom: 48px;
 }
+
 .props__item h2 {
   font-size: 20px;
   font-weight: 500;
@@ -247,6 +249,7 @@ div.product__content-item article.product:nth-child(2) {
   color: #333136;
   margin-bottom: 32px;
 }
+
 .props__item p {
   font-size: 16px;
   font-weight: 400;
@@ -254,6 +257,16 @@ div.product__content-item article.product:nth-child(2) {
   letter-spacing: 0px;
   color: #333136;
 }
+
 .footer {
   background-color: #1d1c1e;
+  min-height: 393px;
+  position: relative;
+}
+
+.touch {
+  min-height: 292px;
+  border-radius: 15px;
+  background: #e7816b;
+  position: absolute;
 }
